@@ -1,6 +1,6 @@
 ## About
 
-Weather API is a backend application build with REST architecture which can send information about the weather in a particular place for a date within next 7 days to the client.
+Weather API is a backend application build with REST architecture. It can send information about the weather in a particular place for a date within next 7 days to the client.
 
 ## Installation
 
