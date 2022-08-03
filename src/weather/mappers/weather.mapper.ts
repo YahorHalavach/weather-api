@@ -1,5 +1,5 @@
 import { OpenWeather } from '../interface/open-weather.interface';
-import { Weather } from '../models/weather.model';
+import { Weather } from './weather.map';
 
 export default (data: OpenWeather) => {
   const weatherMap: Weather[] = data.daily.map((day) => {
