@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus } from '@nestjs/common';
 import { AxiosResponse } from 'axios';
 import { WeatherQueryDto } from '../dto/weather-query.dto';
-import { WeatherDescription } from '../models/weather-description.model';
+import { WeatherDescription } from '../dto/weather-description.dto';
 
 // Latitude & Longitude
 export const lat = '40.730610';

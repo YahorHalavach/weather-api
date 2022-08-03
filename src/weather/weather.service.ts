@@ -6,7 +6,7 @@ import { OpenWeather } from './interface/open-weather.interface';
 import getFromToDates from './helpers/getFromToDates';
 import findDateWeather from './helpers/findDateWeather';
 import mapWeatherData from './mappers/weather.mapper';
-import { WeatherDescription } from './models/weather-description.model';
+import { WeatherDescription } from './dto/weather-description.dto';
 import { WeatherQueryDto } from './dto/weather-query.dto';
 
 @Injectable()

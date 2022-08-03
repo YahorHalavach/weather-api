@@ -1,6 +1,6 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { WeatherQueryDto } from './dto/weather-query.dto';
-import { WeatherDescription } from './models/weather-description.model';
+import { WeatherDescription } from './dto/weather-description.dto';
 import { WeatherService } from './weather.service';
 
 @Controller('weather')

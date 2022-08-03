@@ -1,4 +1,4 @@
-import { WeatherDescription } from '../models/weather-description.model';
+import { WeatherDescription } from '../dto/weather-description.dto';
 import { Weather } from '../models/weather.model';
 
 export default (weatherMap: Weather[], now: number) => {
